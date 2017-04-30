@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27AE23561B672991001C79CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AE23551B672991001C79CE /* main.m */; };
+		27AE23591B672991001C79CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AE23581B672991001C79CE /* AppDelegate.m */; };
+		27AE235C1B672991001C79CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AE235B1B672991001C79CE /* ViewController.m */; };
+		27AE235F1B672991001C79CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AE235D1B672991001C79CE /* Main.storyboard */; };
+		27AE23611B672991001C79CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AE23601B672991001C79CE /* Images.xcassets */; };
+		27AE23641B672991001C79CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AE23621B672991001C79CE /* LaunchScreen.xib */; };
+		27AE23701B672991001C79CE /* reverseViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AE236F1B672991001C79CE /* reverseViewTests.m */; };
+		E4EC26371EB5AABA00EC8FA5 /* ReverseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EC26361EB5AABA00EC8FA5 /* ReverseView.m */; };
+		E4EC263A1EB5AAEE00EC8FA5 /* ReverseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EC26391EB5AAEE00EC8FA5 /* ReverseInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27AE236A1B672991001C79CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27AE23481B672991001C79CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AE234F1B672991001C79CE;
+			remoteInfo = reverseView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27AE23501B672991001C79CE /* reverseView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reverseView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AE23541B672991001C79CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AE23551B672991001C79CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27AE23571B672991001C79CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27AE23581B672991001C79CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27AE235A1B672991001C79CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27AE235B1B672991001C79CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27AE235E1B672991001C79CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27AE23601B672991001C79CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27AE23631B672991001C79CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		27AE23691B672991001C79CE /* reverseViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reverseViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AE236E1B672991001C79CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AE236F1B672991001C79CE /* reverseViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reverseViewTests.m; sourceTree = "<group>"; };
+		E4EC26351EB5AABA00EC8FA5 /* ReverseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseView.h; sourceTree = "<group>"; };
+		E4EC26361EB5AABA00EC8FA5 /* ReverseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseView.m; sourceTree = "<group>"; };
+		E4EC26381EB5AAEE00EC8FA5 /* ReverseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseInfo.h; sourceTree = "<group>"; };
+		E4EC26391EB5AAEE00EC8FA5 /* ReverseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27AE234D1B672991001C79CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AE23661B672991001C79CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27AE23471B672991001C79CE = {
+			isa = PBXGroup;
+			children = (
+				27AE23521B672991001C79CE /* reverseView */,
+				27AE236C1B672991001C79CE /* reverseViewTests */,
+				27AE23511B672991001C79CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27AE23511B672991001C79CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27AE23501B672991001C79CE /* reverseView.app */,
+				27AE23691B672991001C79CE /* reverseViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27AE23521B672991001C79CE /* reverseView */ = {
+			isa = PBXGroup;
+			children = (
+				E4EC26341EB5AABA00EC8FA5 /* ReverseView */,
+				27AE23571B672991001C79CE /* AppDelegate.h */,
+				27AE23581B672991001C79CE /* AppDelegate.m */,
+				27AE235A1B672991001C79CE /* ViewController.h */,
+				27AE235B1B672991001C79CE /* ViewController.m */,
+				27AE235D1B672991001C79CE /* Main.storyboard */,
+				27AE23601B672991001C79CE /* Images.xcassets */,
+				27AE23621B672991001C79CE /* LaunchScreen.xib */,
+				27AE23531B672991001C79CE /* Supporting Files */,
+			);
+			path = reverseView;
+			sourceTree = "<group>";
+		};
+		27AE23531B672991001C79CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27AE23541B672991001C79CE /* Info.plist */,
+				27AE23551B672991001C79CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27AE236C1B672991001C79CE /* reverseViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				27AE236F1B672991001C79CE /* reverseViewTests.m */,
+				27AE236D1B672991001C79CE /* Supporting Files */,
+			);
+			path = reverseViewTests;
+			sourceTree = "<group>";
+		};
+		27AE236D1B672991001C79CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27AE236E1B672991001C79CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4EC26341EB5AABA00EC8FA5 /* ReverseView */ = {
+			isa = PBXGroup;
+			children = (
+				E4EC26351EB5AABA00EC8FA5 /* ReverseView.h */,
+				E4EC26361EB5AABA00EC8FA5 /* ReverseView.m */,
+				E4EC26381EB5AAEE00EC8FA5 /* ReverseInfo.h */,
+				E4EC26391EB5AAEE00EC8FA5 /* ReverseInfo.m */,
+			);
+			path = ReverseView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27AE234F1B672991001C79CE /* reverseView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AE23731B672991001C79CE /* Build configuration list for PBXNativeTarget "reverseView" */;
+			buildPhases = (
+				27AE234C1B672991001C79CE /* Sources */,
+				27AE234D1B672991001C79CE /* Frameworks */,
+				27AE234E1B672991001C79CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reverseView;
+			productName = reverseView;
+			productReference = 27AE23501B672991001C79CE /* reverseView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27AE23681B672991001C79CE /* reverseViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AE23761B672991001C79CE /* Build configuration list for PBXNativeTarget "reverseViewTests" */;
+			buildPhases = (
+				27AE23651B672991001C79CE /* Sources */,
+				27AE23661B672991001C79CE /* Frameworks */,
+				27AE23671B672991001C79CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27AE236B1B672991001C79CE /* PBXTargetDependency */,
+			);
+			name = reverseViewTests;
+			productName = reverseViewTests;
+			productReference = 27AE23691B672991001C79CE /* reverseViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27AE23481B672991001C79CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = galaxy;
+				TargetAttributes = {
+					27AE234F1B672991001C79CE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					27AE23681B672991001C79CE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 27AE234F1B672991001C79CE;
+					};
+				};
+			};
+			buildConfigurationList = 27AE234B1B672991001C79CE /* Build configuration list for PBXProject "reverseView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27AE23471B672991001C79CE;
+			productRefGroup = 27AE23511B672991001C79CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27AE234F1B672991001C79CE /* reverseView */,
+				27AE23681B672991001C79CE /* reverseViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27AE234E1B672991001C79CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AE235F1B672991001C79CE /* Main.storyboard in Resources */,
+				27AE23641B672991001C79CE /* LaunchScreen.xib in Resources */,
+				27AE23611B672991001C79CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AE23671B672991001C79CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27AE234C1B672991001C79CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AE235C1B672991001C79CE /* ViewController.m in Sources */,
+				E4EC263A1EB5AAEE00EC8FA5 /* ReverseInfo.m in Sources */,
+				27AE23591B672991001C79CE /* AppDelegate.m in Sources */,
+				27AE23561B672991001C79CE /* main.m in Sources */,
+				E4EC26371EB5AABA00EC8FA5 /* ReverseView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AE23651B672991001C79CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AE23701B672991001C79CE /* reverseViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27AE236B1B672991001C79CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AE234F1B672991001C79CE /* reverseView */;
+			targetProxy = 27AE236A1B672991001C79CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27AE235D1B672991001C79CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27AE235E1B672991001C79CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27AE23621B672991001C79CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27AE23631B672991001C79CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27AE23711B672991001C79CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27AE23721B672991001C79CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27AE23741B672991001C79CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = reverseView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27AE23751B672991001C79CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = reverseView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27AE23771B672991001C79CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = reverseViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reverseView.app/reverseView";
+			};
+			name = Debug;
+		};
+		27AE23781B672991001C79CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = reverseViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reverseView.app/reverseView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27AE234B1B672991001C79CE /* Build configuration list for PBXProject "reverseView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AE23711B672991001C79CE /* Debug */,
+				27AE23721B672991001C79CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AE23731B672991001C79CE /* Build configuration list for PBXNativeTarget "reverseView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AE23741B672991001C79CE /* Debug */,
+				27AE23751B672991001C79CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AE23761B672991001C79CE /* Build configuration list for PBXNativeTarget "reverseViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AE23771B672991001C79CE /* Debug */,
+				27AE23781B672991001C79CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27AE23481B672991001C79CE /* Project object */;
+}
